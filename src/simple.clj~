@@ -1,0 +1,5 @@
+(ns simple )
+(defn hello
+	([] "hello world!")
+	([name] (str "hello " name "!")))
+
