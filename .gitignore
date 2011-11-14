@@ -2,3 +2,4 @@ classes/**/*
 classes/*
 lib/**/*
 lib/*
+.lein*
