@@ -23,7 +23,7 @@ You do _not_ need slime installed in your emacs for this to work.
 
 You can run the test suite(!!) by running `lein test` from the command line.
 
-From the clojure REPL in emacs yo can run tests this way:
+From the clojure REPL in emacs you can run tests this way:
 
     user> (use 'clojure.test)
     nil
