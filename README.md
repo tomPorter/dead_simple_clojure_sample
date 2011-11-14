@@ -27,12 +27,13 @@ From the clojure REPL in emacs you can run tests this way:
 
     user> (use 'clojure.test)
     nil
-    user> (run-tests)
+    user> (use 'simple-test)
+    nil
+    user> (run-tests 'simple-test)
     
-    Testing user
+    Testing simple-test
     
-    Ran 0 tests containing 0 assertions.
+    Ran 2 tests containing 5 assertions.
     0 failures, 0 errors.
-    {:type :summary, :pass 0, :test 0, :error 0, :fail 0}
+    {:type :summary, :pass 5, :test 2, :error 0, :fail 0}
     user>
-
