@@ -7,4 +7,6 @@
   "Add stuff"
   ([] 0)
   ([n] n)
-  ([n m] (+ n m)))
+  ([n m] (+ n m))
+  ([n m & more] (reduce + (flatten (list n m more))))
+)
